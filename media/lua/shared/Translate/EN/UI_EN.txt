@@ -1,3 +1,4 @@
 UI_EN = {
     UI_prof_cheater = "Cheater",
+    UI_profdesc_cheater = "Great stuff and 200 free trait points",
 }

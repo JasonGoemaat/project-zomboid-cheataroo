@@ -183,7 +183,7 @@ item CheatKnife
     SwingTime	=	0.1,
     KnockdownMod	=	0,
     SplatBloodOnNoDeath	=	TRUE,
-    Icon	=	HuntingKnife,
+    Icon	=	CheatKnife,
     RunAnim	=	Run_Weapon2,
     IdleAnim	=	Idle_Weapon2,
     TreeDamage  =   2,
