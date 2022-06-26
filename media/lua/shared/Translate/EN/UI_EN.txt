@@ -1,4 +1,6 @@
 UI_EN = {
     UI_prof_cheater = "Cheater",
-    UI_profdesc_cheater = "Great stuff and 200 free trait points",
+    UI_profdesc_cheater = "All Perks and 200 free trait points",
+    UI_prof_natural = "Natural",
+    UI_profdesc_natural = "200 free trait points",
 }

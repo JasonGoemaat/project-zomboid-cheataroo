@@ -1,8 +1,8 @@
 ZomboidGlobals = {
-  FoodLootModifier = 0.6,
-  WeaponLootModifier = 0.6,
-  OtherLootModifier = 0.6,
-  RunningEnduranceReduce = 0.0000520,
+  FoodLootModifier = 2.6,
+  WeaponLootModifier = 2.6,
+  OtherLootModifier = 2.6,
+  RunningEnduranceReduce = 0.0000001,
   SprintingEnduranceReduce = 0.0004550,
   ImobileEnduranceIncrease = 0.0000930/3,
 

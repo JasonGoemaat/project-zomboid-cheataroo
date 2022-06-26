@@ -1,9 +1,6 @@
-CheaterProfession = {}
-
-CheaterProfession.DoProfessions = function()
-	--local cheater = ProfessionFactory.addProfession("cheater", getText("UI_prof_cheater"), getTexture("media/ui/profession_cheater.png"), 200);
+local DoProfessions = function()
+  --    variable                                  name       text                        icon                  free trait points
 	local cheater = ProfessionFactory.addProfession("cheater", getText("UI_prof_cheater"), "profession_cheater", 200);
-	--local cheater = ProfessionFactory.addProfession("cheater", getText("UI_prof_cheater"), "profession_fireofficer2", 200);
 
   cheater:addXPBoost(Perks.Agility, 10)
   cheater:addXPBoost(Perks.Aiming, 10)
@@ -38,6 +35,10 @@ CheaterProfession.DoProfessions = function()
   cheater:addXPBoost(Perks.Tailoring, 10)
   cheater:addXPBoost(Perks.Trapping, 10)
   cheater:addXPBoost(Perks.Woodwork, 10)
+
+  -- master just has 200 free trait points so they can get all traits
+  local master = ProfessionFactory.addProfession("natural", getText("UI_prof_natural"), "profession_natural", 200);
 end
 
-Events.OnGameBoot.Add(CheaterProfession.DoProfessions);
+-- https://pzwiki.net/wiki/Modding:Lua_Event
+Events.OnGameBoot.Add(DoProfessions);
